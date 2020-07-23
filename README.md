@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="logo" src="src/imagens/Logo/BERADEIRO_LOGO.jpg" width="200px" />
+    <img alt="logo" src="src/imagens/Logo/simbolo-beradeiro-RGB.png" width="200px" />
 </p>
 
 <h1 align="center">
@@ -22,5 +22,7 @@ O objetivo do projeto é criar um canal de divulgação da Associação Beradeir
 
 ---
 
-Feito by [Associação Beradeiro]
+Feito by [Evandro para a Associação Beradeiro]
+
+
 
