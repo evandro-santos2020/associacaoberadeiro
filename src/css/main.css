@@ -1,30 +1,152 @@
-.container-redes-sociais{
-    display: flex;
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
 }
 
-.facebook{
-    margin: 5%;
+:root{
+    --font: Montserrat;
+}
+.container-redes-sociais{
+    display: flex;
+    margin-right: 5%;
+    min-width: 100px;
+    justify-content: space-around;
 }
 
 .insta{
     margin: 5%;
+    width: 33px;
+    height: 33px;
+    left: 1129px;
+    top: 70px;
+    min-height: 30px;
+    min-width: 30px;
 }
 
-.YouTube{
+.facebook{
     margin: 5%;
+    width: 33px;
+    height: 33px;
+    left: 1191px;
+    top: 70px;
+    min-height: 30px;
+    min-width: 30px;
 }
 
 .container-apresentacao{
+    padding: 50px;
     margin-bottom: 50%;
-    text-align: center;
+    text-align: start;
 }
 
-.container-QuemSomos{
+#container-inicio{
+    margin-top: 80px;
+    width: 539px;
+    height: 533px;
+    background: #D56E29;
+}
+#text-prazer{
+    position: absolute;
+    width: 180px;
+    height: 65px;
+    left: 50px;
+    top: 242px;
+    font-family: var(--font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 53px;
+    line-height: 65px;
+    color: #FFFFFF;
+}
+#text-somos{
+    position: absolute;
+    width: 386px;
+    height: 174px;
+    left: 50px;
+    top: 306px;
+
+    font-family: var(--font);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 71px;
+    line-height: 87px;
+    color: #FFFFFF;
+}
+#text-conheca{
+    position: absolute;
+    background: #FFFFFF;
+    border-radius: 4px;
+    width: 305px;
+    height: 40px;
+    left: 53px;
+    top: 532.07px;
+
+    font-family: var(--font);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #D56E29;
+}
+#img-inicio{
+    position: absolute;
+    /* width: 741px; */
+    height: 533px;
+    left: 539px;
+    top: 80px;
+}
+#img-boas-vindas{
+    width: 100%;
+    margin-top: 10%;
+}
+
+
+#text-equipe{
+    font-family: var(--font);
+    margin: 0px;
+    width: 131px;
+    font-size: 30px;
+}
+
+/*.container-Nos{
     background-color: darkgrey;
     margin: 30%;
     border-radius: 25px;
-}
+}*/
 
 .logo{
-    width: 100px;
+    width: 174px;
+    height: 56px;
+    left: 55px;
+    top: 50px;
+}
+
+
+#impacto{
+
+}
+
+#img-boas-vindas-desktop{
+    width: 100%;
+}
+
+#img-boas-vindas-mobile{
+    display: none;
+}
+
+@media (max-width: 1000px) {
+
+    #img-boas-vindas-mobile{
+       display: block !important;
+       width: 100%;
+    }
+    #img-boas-vindas-desktop{
+       display: none;
+    }
+    
 }
