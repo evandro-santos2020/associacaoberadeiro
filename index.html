@@ -6,15 +6,12 @@
 <head>
 <meta charset="utf-8">
   
-
+  <link rel="shortcut icon" href="src/imagens/logo/simbolo-beradeiro-RGB.png">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
   integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <script type="text/javascript" src="bootstrap/js/jquery.js"></script>
-  <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
   <link rel="stylesheet" href="src/css/main.css" />
   <!-- google fonts -->
-  <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet"> -->
+  <link href="src/fonts/Montserrat-Black.ttf" rel="stylesheet">
  
       
     <script type="text/javascript">
@@ -59,22 +56,6 @@ fbq('track', 'PageView');
 src="https://www.facebook.com/tr?id=286418755747691&ev=PageView&noscript=1"
 /></noscript> -->
 <!-- End Facebook Pixel Code -->
-
-<script>
-
-  function slidetoggle() {
-    var slider = document.getElementById("nav-slide");
-    slider.style.height = window.innerHeight - 60 + "px";
-
-    if(slider.style.left == "0px") {
-      slider.style.left = "-250px";
-    }
-    else {
-      slider.style.left = "0px";
-    }
-  }
-
-</script>
 </head>
 
 <title>Associação Beradeiro</title>
@@ -101,46 +82,46 @@ src="https://www.facebook.com/tr?id=286418755747691&ev=PageView&noscript=1"
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" >
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+
+    <a class="navbar-brand" href="#" class="logo">
+      <img alt="logo" src="src/imagens/Logo/logo-beradeiro-RGB 1.png" img-responsive img-thumbnail width="100%" class="logo">
+    </a>
  
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(Página atual)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#QuemSomos">Quem somos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#NossoTrabalho">Nosso trabalho</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#impacto">Impacto</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Parceiros</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Faça sua doação</a>
-        </li>
-      </ul>
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <!--<li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(Página atual)</span></a>
+            </li>-->
+            <li class="nav-item">
+              <a class="nav-link" href="#nos">Nós</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#NossoTrabalho">Nosso trabalho</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Equipe">Equipe</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#impacto">Impacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Parceiros">Parceiros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Doe"><strong>Doe</strong></a>
+            </li>
+          </ul>
     </div>
 
     <div class="container-redes-sociais">
-      <a href="https://www.facebook.com/pg/associacaoberadeiro" class="facebook">
-      <img alt="facebook" src="src/imagens/ícones/fb laranja.png" img-responsive img-thumbnail width="100%">
-      </a>
       <a href="https://www.instagram.com/associacaoberadeiro/" class="insta">
-      <img alt="instagram" src="src/imagens/ícones/ig laranja.png" img-responsive img-thumbnail width="100%">
+        <img alt="instagram" src="src/imagens/ícones/icon-isnta.png" img-responsive img-thumbnail width="100%">
       </a>
-      <a href="" class="YouTube">
-      <img alt="YouTube" src="src/imagens/ícones/yt laranja.png" img-responsive img-thumbnail width="100%">
+      <a href="https://www.facebook.com/pg/associacaoberadeiro" class="facebook">
+        <img alt="facebook" src="src/imagens/ícones/icon-facebook 2.png" img-responsive img-thumbnail width="100%">
       </a>
     </div>
-
-    <a class="navbar-brand" href="#" class="logo">Associação Beradeiro
-      <img alt="logo" src="src/imagens/Logo/BERADEIRO_LOGO.jpg" img-responsive img-thumbnail width="100%" class="logo">
-    </a>
 
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Alterna navegação">
@@ -148,32 +129,64 @@ src="https://www.facebook.com/tr?id=286418755747691&ev=PageView&noscript=1"
     </button>
   </nav>
 
-  <div class="container-apresentacao" style="margin-top: 15%;">
-    <h1>Prazer,</h1>
-    <h1><strong>somos a Beradeiro!</strong></h1>
-  </div>
+  <div id="container-boas-vindas" id="nos">
+    <!-- <h1 id="text-prazer">Prazer,</h1>
+    <h1 id="text-somos"><strong>somos a Beradeiro!</strong></h1>
+    <h3 id="text-conheca">Conheça nosso trabalho</h3>
+    <img id="img-inicio" src="src/imagens/Pagina/TOP_1.png"> -->
+    <img id="img-boas-vindas-desktop" src="src/imagens/Pagina/banner-boas-vindas-desktop.png"> 
+    <img id="img-boas-vindas-mobile" src="src/imagens/Pagina/banner-boas-vindas-mobile.png"> 
 
-  <div class="container-QuemSomos" id="QuemSomos"> 
-    <h1>Conheça nosso trabalho</h1>
-    
   </div>
-
-  <div class="container-apresentacao" id="impacto">
+  <div class="container-apresentacao">
     <h1><strong>Educação, saúde e cuidado</strong></h1>
+    <h2>é o que entregamos.</h2>
+    <p>Texto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a Beradeiro</p>
   </div>
 
   <div class="container-apresentacao" id="NossoTrabalho">
     <h1><strong>Nosso trabalho</strong></h1>
+    <p> sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a Beradeiro Texto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a</p>
+  </div>
+
+  <div class="container-apresentacao" id="impacto">
+    <h1><strong>Educação, saúde e cuidado</strong></h1>
+    <h2>é o que entregamos.</h2>
+    <p>Texto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a Beradeiro</p>
+  </div>
+
+  <div class="container-apresentacao" id="equipe" style="display: flex;">
+    <h1><strong>Equipe</strong></h1>
+      <img src="src/imagens/Pagina/equipe-1.png">
+      <h5 class="text-equipe">Marcuce Antônio</h5>
+      <img src="src/imagens/Pagina/equipe-1.png">
+      <h5 class="text-equipe">Marcuce Antônio</h5>
+      <img src="src/imagens/Pagina/equipe-1.png">
+      <h5 class="text-equipe">Marcuce Antônio</h5>
+      <img src="src/imagens/Pagina/equipe-1.png">
+      <h5 class="text-equipe">Marcuce Antônio</h5>
+  </div>
+  <div class="container-apresentacao" id="Impacto">
+    <h1><strong>Impacto</strong></h1>
+    <p>Texto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a Beradeiro</p>
+  </div>
+
+  <div class="container-apresentacao" id="Parceiros">
+    <h1><strong>Parceiros</strong></h1>
   </div>
 
 </body>
-
+	
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   
 
 </html>
+
+
+
+
 
 
 
