@@ -1,329 +1,314 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-body{
-    overflow-x: hidden;
-}
+<!DOCTYPE html>
 
-:root{
-    --font: Montserrat;
-}
-.container-redes-sociais{
-    display: flex;
-    margin-right: 5%;
-    min-width: 100px;
-    justify-content: space-around;
-}
-
-.insta{
-    margin: 5%;
-    width: 33px;
-    height: 33px;
-    left: 1129px;
-    top: 70px;
-    min-height: 30px;
-    min-width: 30px;
-}
-
-.facebook{
-    margin: 5%;
-    width: 33px;
-    height: 33px;
-    left: 1191px;
-    top: 70px;
-    min-height: 30px;
-    min-width: 30px;
-}
-
-.container-apresentacao{
-    padding: 50px;
-    margin-bottom: 50%;
-    text-align: start;
-}
-
-#container-inicio{
-    margin-top: 80px;
-    width: 539px;
-    height: 533px;
-    background: #D56E29;
-}
-#text-prazer{
-    position: absolute;
-    width: 180px;
-    height: 65px;
-    left: 50px;
-    top: 242px;
-    font-family: var(--font);
-    font-style: normal;
-    font-weight: normal;
-    font-size: 53px;
-    line-height: 65px;
-    color: #FFFFFF;
-}
-#text-somos{
-    position: absolute;
-    width: 386px;
-    height: 174px;
-    left: 50px;
-    top: 306px;
-
-    font-family: var(--font);
-    font-style: normal;
-    font-weight: bold;
-    font-size: 71px;
-    line-height: 87px;
-    color: #FFFFFF;
-}
-#text-conheca{
-    position: absolute;
-    background: #FFFFFF;
-    border-radius: 4px;
-    width: 305px;
-    height: 40px;
-    left: 53px;
-    top: 532.07px;
-
-    font-family: var(--font);
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 29px;
-    text-align: center;
-
-    color: #D56E29;
-}
-#img-inicio{
-    position: absolute;
-    /* width: 741px; */
-    height: 533px;
-    left: 539px;
-    top: 80px;
-}
-#img-boas-vindas{
-    width: 100%;
-    margin-top: 10%;
-}
+<html lang="pt-BR">
 
 
-#text-equipe{
-    font-family: var(--font);
-    margin: 0px;
-    width: 131px;
-    font-size: 30px;
-}
-
-.container-nos{
-    display: flex;
-}
-
-.logo{
-    width: 174px;
-    height: 56px;
-    left: 55px;
-    top: 50px;
-}
-
-
-#impacto{
-
-}
-
-#img-boas-vindas-desktop{
-    width: 100%;
-}
-
-#img-boas-vindas-mobile{
-    display: none;
-}
-
-.col-md-6-text-nos{
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    color: #3C3C3B;
-    margin-left: 3%;
-}
-
-.container-text-2{
-    margin-top: 2%;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    color: #3C3C3B;
-    margin-left: 3%;
-    margin-right: 3%;
-}
-
-.col-md-6{
-    display: flex;
-    justify-content: center;
-}
-
-
-
-.img-2{
-    display: flex;
-    justify-content: center;
-    margin-top: 2%;
-}
-
-.text-tit-acao{
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 25px;
-    line-height: 37px;
-    color: #D56E29;
-}
-
-
-.text-corpo-acao{
-    margin-top: 2%;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    color: #3C3C3B;
-    margin-left: 2%;
-    margin-right: 2%;
-}
-
-.container-acao{
-    display: flex;
-    text-align: center;
-    
-}
-
-#img-nos-mobile-2{
-    display: none;
-}
-
-#missao{
-    margin-top: 3%;
-    width: 50%;
-}
-
-#visao{
-    margin-top: 3%;
-    width: 50%;
-}
-
-#valores{
-    margin-top: 3%;
-    width: 50%;
-}
-
-#temas-abordados{
-    width: 50%;
-}
-
-#Realizamos{
-    width: 50%;
-}
-
-#Proporcionamos{
-    width: 50%;
-}
-
-.container-integrante{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    
-
-}
-
-
-
-
-
-@media (max-width: 1000px) {
-
-    #img-boas-vindas-mobile{
-       display: block !important;
-       width: 100%;
-    }
-    #img-boas-vindas-desktop{
-       display: none;
-    }
-
-
-    .col-md-6{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .container-nos{
-        display: block;
-    }
-
-    #img-nos-desktop-2{
-        display: none;
-    }
-
-    #img-nos-mobile-2{
-        display: block !important;
-        text-align: center;
-    }
-
-    .container-acao{
-        display: block;
-        text-align: center !important;
-        margin-top: 2%;
-    }
-
-    .container-nosso-trabalho{
-        display: block !important;
+<head>
+<meta charset="utf-8">
+  
+  <link rel="shortcut icon" href="src/imagens/logo/simbolo-beradeiro-RGB.png">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+  integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="src/css/main.css" />
+  <!-- google fonts -->
+  <link href="src/fonts/Montserrat-Black.ttf" rel="stylesheet">
+ 
+      
+    <script type="text/javascript">
+      bioEp.init({
+        html: '<div id="bio_ep_content">' +
+        '<span>Ajude a Associação </span>' +
+        '<span>Clica no botão abaixo para saber mais!</span>' +
+        '<span>Corre para não perder!!</span>' +
+        '<a href="https://seviraempreendedor.com" class="bio_btn">QUERO ASSISTIR A LIVE!</a>' +
+        '</div>',
+        css: '#bio_ep {width: 400px; height: 300px; color: white; background-color: #E2781E; text-align: center;}' +
+        '#bio_ep_content {padding: 24px 0 0 0; font-family: "Montserrat";}' +
+        '#bio_ep_content span:nth-child(2) {display: block; color: white; font-size: 32px; font-weight: 600;}' +
+        '#bio_ep_content span:nth-child(3) {display: block; font-size: 20px;}' +
+        '#bio_ep_content span:nth-child(4) {display: block; margin: -5px 0 0 0; font-size: 20px; font-weight: 600;}' +
+        '.bio_btn {display: inline-block; margin: 18px 0 0 0; padding: 8px; color: black; font-size: 25px; font-weight: 600; background-color: white; border: 1px solid black cursor: pointer; -webkit-appearance: none; -moz-appearance: none; border-radius: 0; text-decoration: none;}',
         
-    }
+        cookieExp: 0
+    });
+    </script>
+  
+  <meta property="og:image" content="imagens/logosemfundo.png"/>  
+  <meta property="og:title" content="Associação Beradeiro"/> 
+  <meta name="description"  content="resumo da associação">
+  
+  <!-- Google Pixel Code -->
+  <meta name="keywords" content="crise financeira, crise, empresa, econômica, ideias"/>
+	<!-- Facebook Pixel Code -->
+<!-- <script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '286418755747691');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=286418755747691&ev=PageView&noscript=1"
+/></noscript> -->
+<!-- End Facebook Pixel Code -->
+</head>
 
-    .col-md-4{
-        margin-bottom: 15%;
-        text-align: center !important;
-    }
+<title>Associação Beradeiro</title>
 
-    #missao{
-        margin-top: 3%;
-        width: 100%;
-    }
+<meta name="viewport">
+
+
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+
+    <a class="navbar-brand" href="#" class="logo">
+      <img alt="logo" src="src/imagens/Logo/logo-beradeiro-RGB 1.png" img-responsive img-thumbnail width="100%" class="logo">
+    </a>
+ 
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <!--<li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(Página atual)</span></a>
+            </li>-->
+            <li class="nav-item">
+              <a class="nav-link" href="#nos">Nós</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#NossoTrabalho">Nosso trabalho</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Equipe">Equipe</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#impacto">Impacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Parceiros">Parceiros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Doe"><strong>Doe</strong></a>
+            </li>
+          </ul>
+    </div>
+
+    <div class="container-redes-sociais">
+      <a href="https://www.instagram.com/associacaoberadeiro/" class="insta">
+        <img alt="instagram" src="src/imagens/ícones/icon-isnta.png" img-responsive img-thumbnail width="100%">
+      </a>
+      <a href="https://www.facebook.com/pg/associacaoberadeiro" class="facebook">
+        <img alt="facebook" src="src/imagens/ícones/icon-facebook 2.png" img-responsive img-thumbnail width="100%">
+      </a>
+    </div>
+
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+
+  <div id="container-boas-vindas" id="nos">
+    <img id="img-boas-vindas-desktop" src="src/imagens/Pagina/banner-boas-vindas-desktop.png"> 
+    <img id="img-boas-vindas-mobile" src="src/imagens/Pagina/banner-boas-vindas-mobile.png"> 
+
+  </div>
+  <div class="container-titulo-nos" style=" margin-top: 3%; margin-left: 3%;">
+    <h1><strong>Educação, saúde e cuidado</strong></h1>
+    <h2 style="color: #D56E29;">é o que entregamos.</h2>
+  </div>
+
+    <div class="container-nos">
+      <div class="col-md-6-text-nos">
+        <br>
+        <p>A Associação Beradeiro nasceu oficialmente em 2017, na cidade de Porto Velho/RO, com a missão de promover uma (re)educação pautada na saúde sexual de adolescentes, jovens, adultos jovens, idosos e seus familiares, residentes em comunidades do campo, da floresta e das águas, buscando proporcionar melhorias em sua qualidade de vida.</p>
+        <br>
+        <p>Sua história começou em meados de 2006, quando em uma de suas primeiras viagens pelo extenso Rio Madeira, o futuro Presidente da Beradeiro, Marcuce Antonio, à época acadêmico de Enfermagem na Universidade Federal de Rondônia, desenvolvia uma atividade prática dentro do curso no tradicional distrito de Calama e nasceu sua vontade de atuar junto a estas comunidades. Após muitos anos de estudos voltados para este objetivo, quando já era professor universitário, ele lançou um desafio entre os estudantes do curso de Enfermagem.</p>
+      </div>
+
+      <div class="col-md-6">
+        <img id="img-nos-desktop" src="src/imagens/Pagina/img-1.jpg" style="max-width: 100%;"> 
+      </div>
+    </div>
+
+    <div class="img-2">
+      <img id="img-nos-desktop-2" src="src/imagens/Pagina/img-2.jpg" style="max-width: 100%;"> 
+    </div>
+
     
-    #visao{
-        margin-top: 3%;
-        width: 100%;
-    }
+    <div class="container-text-2">
+      <p>Foi então que em conjunto com o grupo de alunos, idealizou um projeto com o objetivo de desenvolver ações de saúde preventiva, educativas e de promoção da saúde, voltadas a Saúde Sexual, Sexualidade na Adolescência, Prevenção, diagnóstico e tratamento das IST’s e outros agravos de interesse da saúde pública local. Assim nasceu a Associação Beradeiro, com o propósito de promover qualidade de vida para adolescentes, jovens, adultos, idosos e suas famílias que moravam nos campos, nas florestas e nas águas, levando saúde onde a escassez era uma realidade.</p>
+      <br>
+      <p>A Beradeiro conta com o apoio dos Núcleos Municipal e Estadual de Infecções Sexualmente Transmissíveis da Agência Estadual de Vigilância em Saúde de Rondônia – AGEVISA e do Departamento de Vigilância em Saúde de Porto Velho e hoje possui vinte e dois membros colaboradores, formando um grupo da saúde e educação, multidisciplinar e multiprofissional, entre eles: enfermeiros, psicólogos, odontólogos, assistente social, médicos, fisioterapeutas, fonoaudiólogos, pedagogos, advogado, contador e acadêmicos da área das ciências sociais, humanas e saúde.</p>
+    </div>
+
+    <div class="img-2">
+      <img id="img-nos-mobile-2" src="src/imagens/Pagina/img-2.jpg" style="max-width: 100%;"> 
+    </div>
+
+    <div class="container-acao">
+      <div class="container-missao" id="missao">
+        <div class="missao-img">
+          <img id="img-missao" src="src/imagens/Pagina/icone-missao.png"> 
+        </div>
+        
+        <div class="text-tit-acao">
+         <p>Missão</p>
+        </div>
+
+        <div class="text-corpo-acao">
+          <p>Promover a melhoria na qualidade de vida de adolescentes, jovens, adultos, idosos e suas famílias, residentes nos campos, nas florestas e nas águas, por meio de ações de educação em saúde, promoção da saúde, diagnóstico e tratamento das IST’S/HIV/AIDS e Hepatites Virais.</p>
+        </div>
+  
+      </div>
+  
+      <div class="container-missao-visao" id="visao">
+        <div class="visao-img">
+          <img id="img-visao" src="src/imagens/Pagina/icone-visao.png"> 
+        </div>
+        
+        <div class="text-tit-acao">
+          <p>Visão</p>
+        </div>
+
+        <div class="text-corpo-acao">
+          <p>Ser referência de ONG no desenvolvimento de ações de promoção, prevenção, diagnóstico e tratamento das IST’S/HIV/AIDS e Hepatites Virais, contribuindo efetivamente para a redução da epidemia destes agravos em Porto Velho e em Rondônia.</p>
+        </div>
+  
+      </div>
+  
+      <div class="container-valores" id="valores">
+        <div class="valores-img">
+          <img id="img-valores" src="src/imagens/Pagina/icone-valores.png"> 
+        </div>
+        
+        <div class="text-tit-acao">
+          <p>Valores</p>
+        </div>
+
+        <div class="text-corpo-acao">
+          <p>Ética Confidencialidade Resolutividade Compromisso Contribuição Social</p>
+        </div>
+      </div>
+  
+    </div>
+
+
+    <div class="container-titulo-nossa-trajetoria" style=" margin-top: 3%; margin-left: 3%; margin-bottom: 30%;">
+      <h1><strong>A nossa trajetória</strong></h1>
+      <h2 style="color: #D56E29;">por onde passamos</h2>
+    </div>
+
+    <div class="container-titulo-nosso-trabalho" style=" margin-top: 3%; margin-left: 3%;">
+      <h1><strong>Nosso trabalho</strong></h1>
+    </div>
+
+    <div class="container-nosso-trabalho" style="display: flex; text-align: center;">
+      <div class="container-temas-abordados" id="temas-abordados" style="margin-top: 2%;">
+        <div class="text-tit-nosso-trabalho" >
+          <h2 style="color: #D56E29;">Temas abordados</h2>
+        </div>
+
+        <div class="text-corpo-acao" style="line-height: 160.9%;">
+          <p>Sexualidade na adolescência;</p>
+          <p>Educação em Saúde sexual;</p>
+          <p>Práticas sexuais seguras;</p>
+          <p>Prevenção às IST’S/HIV/AIDS e Hepatites Virais;</p>
+          <p>Importância do diagnóstico através do Teste Rápido;</p>
+        </div>
+
+      </div>
+  
+      <div class="container-realizamos" id="Realizamos" style="margin-top: 2%;">
+        <div class="text-tit-nosso-trabalho">
+          <h2 style="color: #D56E29;">Realizamos</h2>
+        </div>
+
+        <div class="text-corpo-acao" style="line-height: 140.9%;">
+          <p>Oficinas de Educação em Saúde com os adolescentes e jovens;</p>
+          <p>Confecção de Dispensadores de Popular de Preservativos – DPP;</p>
+          <p>Oficinas de Capacitação de promotores de saúde Local;</p>
+          <p>Oferta de testes rápidos para a população;</p>
+          <p>Diagnóstico e tratamento das IST’S/HIV/AIDS e Hepatites Virais;</p>
+          <p>Educação Permanente para os profissionais de saúde; Pesquisa e extensão universitária;</p>
+        </div>
+  
+      </div>
+  
+      <div class="container-proporcionamos" id="Proporcionamos" style="margin-top: 2%;">
+        <div class="text-tit-nosso-trabalho">
+          <h2 style="color: #D56E29;">Proporcionamos</h2>
+        </div>
+
+        <div class="text-corpo-acao" style="line-height: 170.7%;">
+          <p>Contribuição Social;</p>
+          <p>Empoderamento de jovens e adolescentes;</p>
+          <p>Conscientização sobre práticas sexuais protegidas;</p>
+          <p>Acesso aos serviços de saúde às comunidades;</p>
+          <p>Melhoria nos indicadores epidemiológicos;</p>
+        </div>
+  
+      </div>
+    </div>
     
-    #valores{
-        margin-top: 3%;
-        width: 100%;
-    }
 
-    #temas-abordados{
-        width: 100%;
-    }
+
+    <div class="container-titulo-nosso-trabalho" style=" margin-top: 3%; margin-left: 3%;">
+      <h1><strong>Equipe</strong></h1>
+    </div>
+
+
+  <div class="container-apresentacao" id="equipe" style="display: flex;">
+    <div class="container-integrante">
+      <img src="src/imagens/Pagina/equipe-1.png">
+      <h2 class="text-equipe">Marcuce Antônio</h2>
+      <h5 class="text-equipe">Diretor</h5>
+    </div>
+
+    <div class="container-integrante">
+      <img src="src/imagens/Pagina/equipe-1.png">
+      <h2 class="text-equipe">Jane Cardoso</h2>
+      <h5 class="text-equipe">Psicóloga</h5>
+    </div>
+
+    <div class="container-integrante">
+      <img src="src/imagens/Pagina/equipe-1.png">
+      <h2 class="text-equipe">Clerisvaldo </h2>
+      <h5 class="text-equipe">Jornalista</h5>
+    </div>
+
+    <div class="container-integrante">
+      <img src="src/imagens/Pagina/equipe-1.png">
+      <h2 class="text-equipe">Marcuce Antônio</h2>
+      <h5 class="text-equipe">Diretor</h5>
+    </div>
     
-    #Realizamos{
-        width: 100%;
-    }
-    
-    #Proporcionamos{
-        width: 100%;
-    }
+  </div>
+  <div class="container-apresentacao" id="Impacto">
+    <h1><strong>Impacto</strong></h1>
+    <p>Texto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a BeradeiroTexto sobre a Beradeiro</p>
+  </div>
 
-    #equipe{
-        display: block !important;
-    }
+  <div class="container-apresentacao" id="Parceiros">
+    <h1><strong>Parceiros</strong></h1>
+  </div>
 
-    .img-1{
-        display: block !important;
-        margin-left: auto;
-        margin-right: auto;
-    }
+</body>
+	
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  
+
+</html>
 
 
-    
-}
+
+
+
+
