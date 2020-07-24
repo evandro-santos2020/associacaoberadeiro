@@ -113,11 +113,9 @@ body{
     font-size: 30px;
 }
 
-/*.container-Nos{
-    background-color: darkgrey;
-    margin: 30%;
-    border-radius: 25px;
-}*/
+.container-nos{
+    display: flex;
+}
 
 .logo{
     width: 174px;
@@ -139,6 +137,110 @@ body{
     display: none;
 }
 
+.col-md-6-text-nos{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #3C3C3B;
+    margin-left: 3%;
+}
+
+.container-text-2{
+    margin-top: 2%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #3C3C3B;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.col-md-6{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.img-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.text-tit-acao{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 37px;
+    color: #D56E29;
+}
+
+
+.text-corpo-acao{
+    margin-top: 2%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #3C3C3B;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.container-acao{
+    display: flex;
+    text-align: center;
+    
+}
+
+#img-nos-mobile-2{
+    display: none;
+}
+
+#missao{
+    margin-top: 3%;
+    width: 50%;
+}
+
+#visao{
+    margin-top: 3%;
+    width: 50%;
+}
+
+#valores{
+    margin-top: 3%;
+    width: 50%;
+}
+
+#temas-abordados{
+    width: 50%;
+}
+
+#Realizamos{
+    width: 50%;
+}
+
+#Proporcionamos{
+    width: 50%;
+}
+
+.container-integrante{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+
+}
+
+
+
+
+
 @media (max-width: 1000px) {
 
     #img-boas-vindas-mobile{
@@ -148,5 +250,80 @@ body{
     #img-boas-vindas-desktop{
        display: none;
     }
+
+
+    .col-md-6{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .container-nos{
+        display: block;
+    }
+
+    #img-nos-desktop-2{
+        display: none;
+    }
+
+    #img-nos-mobile-2{
+        display: block !important;
+        text-align: center;
+    }
+
+    .container-acao{
+        display: block;
+        text-align: center !important;
+        margin-top: 2%;
+    }
+
+    .container-nosso-trabalho{
+        display: block !important;
+        
+    }
+
+    .col-md-4{
+        margin-bottom: 15%;
+        text-align: center !important;
+    }
+
+    #missao{
+        margin-top: 3%;
+        width: 100%;
+    }
+    
+    #visao{
+        margin-top: 3%;
+        width: 100%;
+    }
+    
+    #valores{
+        margin-top: 3%;
+        width: 100%;
+    }
+
+    #temas-abordados{
+        width: 100%;
+    }
+    
+    #Realizamos{
+        width: 100%;
+    }
+    
+    #Proporcionamos{
+        width: 100%;
+    }
+
+    #equipe{
+        display: block !important;
+    }
+
+    .img-1{
+        display: block !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
     
 }
